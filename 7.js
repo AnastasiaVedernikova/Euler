@@ -19,5 +19,3 @@ while (list.length < 10001){
     i+=1;
 }
 console.log(list[list.length-1]);
-// 104743
-// 104759

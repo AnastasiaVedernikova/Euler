@@ -49,6 +49,6 @@ class BinarySearchTree {
     for (i in numbers){
         tree.insert(new Node(numbers[i]), tree.root);
     }
-    
+
 
 })();

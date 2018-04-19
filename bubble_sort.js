@@ -1,12 +1,12 @@
 var a = [34, 203, 3, 746, 200, 984, 198, 764, 9];
 
-function bubbleSort(a)
+function bubble_sort(a)
 {
     var swapped;
     do {
         swapped = false;
         for (var i=0; i < a.length-1; i++) {
-            if (a[i] > a[i+1]) {
+            if (a[i] > a[i+1]) { //taking 2 elements and comparing them, if need, swap them
                 var temp = a[i];
                 a[i] = a[i+1];
                 a[i+1] = temp;
@@ -17,4 +17,4 @@ function bubbleSort(a)
     return a;
 }
 
-console.log(bubbleSort(a));
+console.log(bubble_sort(a));
